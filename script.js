@@ -1,12 +1,13 @@
 function highlight() {
-    //Write your code here
-
-
+    let boldItems = document.querySelectorAll('strong');
+    for(let i = 0; i < boldItems.length; i++) {
+        boldItems[i].style.color = 'green';
+    }
 }
 
-
 function return_normal() {
-    //Write your code here
-
-    
+    let boldItems = document.querySelectorAll('strong');
+    for(let i = 0; i < boldItems.length; i++) {
+        boldItems[i].style.color = 'black';
+    }
 }
